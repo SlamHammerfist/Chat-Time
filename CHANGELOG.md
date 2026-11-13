@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.1
+
+- Fixed the timestamp dropping onto its own line, or being overlapped, when the sender name is long.
+
 ## 2.0.0
 
 - Rebuilt from scratch for Foundry VTT v14 and D&D 5e v6.
