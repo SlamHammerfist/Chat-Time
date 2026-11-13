@@ -1,0 +1,15 @@
+/* Chat Time: our stamp only shows while enabled, and then Foundry's own one is hidden. */
+.chat-message .chat-time-stamp {
+  display: none;
+  white-space: nowrap;
+  font-size: var(--font-size-11, 11px);
+  color: var(--color-text-subtle, inherit);
+}
+
+body.chat-time-enabled .chat-message .chat-time-stamp {
+  display: inline;
+}
+
+body.chat-time-enabled .chat-message .message-timestamp {
+  display: none !important;
+}

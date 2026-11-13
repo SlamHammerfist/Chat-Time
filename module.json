@@ -1,0 +1,34 @@
+{
+  "id": "chat-time",
+  "title": "Chat Time",
+  "description": "Replaces the chat message timestamp with your local real-world time and date, in a 12-hour or 24-hour clock. Each player chooses for themselves.",
+  "version": "2.0.0",
+  "authors": [
+    { "name": "Slam Hammerfist" }
+  ],
+  "url": "https://github.com/SlamHammerfist/chat-time",
+  "manifest": "https://github.com/SlamHammerfist/chat-time/releases/latest/download/module.json",
+  "download": "https://github.com/SlamHammerfist/chat-time/releases/download/v2.0.0/module.zip",
+  "bugs": "https://github.com/SlamHammerfist/chat-time/issues",
+  "readme": "https://github.com/SlamHammerfist/chat-time/blob/main/README.md",
+  "changelog": "https://github.com/SlamHammerfist/chat-time/blob/main/CHANGELOG.md",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": { "minimum": "6.0.0" }
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/chat-time.mjs"
+  ],
+  "styles": [
+    "styles/chat-time.css"
+  ]
+}
