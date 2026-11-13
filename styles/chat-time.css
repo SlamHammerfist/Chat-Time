@@ -13,3 +13,13 @@ body.chat-time-enabled .chat-message .chat-time-stamp {
 body.chat-time-enabled .chat-message .message-timestamp {
   display: none !important;
 }
+
+/* Our stamp is wider than Foundry's "x minutes ago", so a long sender name would push the
+   whole metadata block onto its own line. Let the sender shrink (its text wraps instead)
+   so the stamp always stays top-right. Full-width rows like flavor text still wrap as before. */
+body.chat-time-enabled .chat-message .message-header:has(.chat-time-stamp) > .message-sender {
+  flex: 1 1 0;
+  min-width: 0;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
