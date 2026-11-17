@@ -74,10 +74,6 @@ function fillStamp(stamp) {
 
   stamp.textContent = `${day}, ${time}`;
   stamp.dateTime = date.toISOString();
-  stamp.dataset.tooltip = date.toLocaleString(undefined, {
-    weekday: "long", year: "numeric", month: "long", day: "numeric",
-    hour: "numeric", minute: "2-digit", second: "2-digit", hour12
-  });
 }
 
 /** Turn the feature on or off for this client. */

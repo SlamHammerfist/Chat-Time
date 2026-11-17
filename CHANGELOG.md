@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.2
+
+- Removed the hover tooltip from the chat card timestamp.
+
 ## 2.0.1
 
 - Fixed the timestamp dropping onto its own line, or being overlapped, when the sender name is long.
